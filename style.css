@@ -1,0 +1,163 @@
+:root {
+    --clr-soft-orange: hsl(35, 77%, 62%);
+    --clr-soft-red: hsl(5, 85%, 63%);
+    --clrOff-white: hsl(36, 100%, 99%);
+    --clr-Grayish-blue: hsl(233, 8%, 79%);
+    --clr-Dark-grayish-blue: hsl(236, 13%, 42%);
+    --clr-Very-dark-blue: hsl(240, 100%, 5%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url(./fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body {
+    margin: 30px 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'inter';
+    display: flex;
+    justify-content: center;
+}
+
+.h1 {
+    color: var(--clr-soft-orange);
+    font-weight: 800;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+#h1{
+    font-weight: 800;
+    font-size: 4rem;
+    color: var(--clr-Very-dark-blue);
+    line-height: 1;
+    font-family: tahoma;
+}
+#p{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4;
+    padding: .2rem;
+    font-family: 'inter';
+    color: var(--clr-Dark-grayish-blue);
+}
+#top{
+    display: flex;
+    flex-direction: row;
+}
+h4{
+    color: var(--clrOff-white) ;
+    font-weight: 400;
+}
+
+.cantainer1 {
+    width: 80rem;
+    max-width: 80rem;
+    display: flex;
+}
+.a-arti{
+    text-decoration: none;
+    transition: all .1s ;
+}
+.a-arti:hover{
+    color: var(--clr-soft-orange);
+}
+
+.nav-cont {
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--clr-Dark-grayish-blue);
+    transition: all .1s ;
+}
+
+.link:hover {
+    color: var(--clr-soft-red);
+}
+
+
+
+.article {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+
+.new-article-preview p {
+    color: var();
+    max-width: 32ch;
+    
+    
+}
+.article-p{
+    color: var(--clr-Dark-grayish-blue);
+}
+
+.div-img {
+    padding-right: 25px;
+    height: 500px;
+}
+
+.div-2 {
+    /* width: 30%; */
+    height: 500px;
+    background-color: var(--clr-Very-dark-blue);
+    padding: 1rem;
+}
+
+.attribution a {
+    
+    color: hsl(228, 45%, 44%);
+}
+.attribution{
+    margin-top: 1rem;
+}
+
+p {
+    font-size: 15px;
+}
+
+.list-cantainer {
+    display: flex;
+    align-items: center;
+}
+.read-more{
+    font-weight: 700;
+    background-color: var(--clr-soft-red);
+    color: var(--clrOff-white);
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    padding: 1.5rem 3rem;
+    outline: transparent;
+    border: transparent;
+    
+}
+
+
+
+.list {
+    list-style: none;
+    margin: 0 10px;
+    color: var(--clr-Grayish-blue);
+}
+
+.img-pic1 {
+    width: 100%;
+    height: 150px;
+}
+
+.img-desc {
+    width: 100%;
+    height: 320px;
+}
